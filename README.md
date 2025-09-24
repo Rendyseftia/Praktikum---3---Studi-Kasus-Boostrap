@@ -5,14 +5,14 @@ Struktur File
 Struktur direktori proyek ini sederhana dan terorganisir sebagai berikut:
 
 .
-├── index.html              # File HTML utama untuk struktur halaman
-├── README.md               # File penjelasan ini
-└── assets/
-    ├── css/
-    │   └── style.css       # File untuk styling kustom tambahan
-    └── img/
-        ├── profile-pic.jpg # Contoh foto profil
-        └── post1.jpg       # Contoh gambar postingan
+index.html              # File HTML utama untuk struktur halaman
+README.md               # File penjelasan ini
+assets/
+css/
+style.css       # File untuk styling kustom tambahan
+img/
+profile-pic.jpg # Contoh foto profil
+post1.jpg       # Contoh gambar postingan
 
 Cara Menjalankan (Build/Run)
 Tidak ada proses build atau kompilasi yang diperlukan. Proyek ini murni berbasis file statis.
@@ -55,3 +55,4 @@ Solusinya adalah jangan memuat semua 50 gambar itu secara serentak. Ada dua cara
 Dibagi per halaman (Paginasi): Ini cara klasik. Kita hanya tampilkan 12 postingan di halaman pertama. Kalau mau lihat sisanya, pengguna tinggal klik nomor halaman (2, 3, 4, dst.) di bagian bawah. Jelas dan simpel.
 
 Digulir terus (Infinite Scroll): Ini cara yang dipakai Instagram asli. Awalnya, kita tetap muat 12 gambar. Nanti, saat pengguna scroll hampir ke bawah, kode akan otomatis memuat 12 gambar berikutnya. Jadi terasa lebih mulus dan modern, seolah-olah postingannya tidak ada habisnya.
+
